@@ -16,8 +16,8 @@ public class Main {
 	}
 
 	public static void printBonusDatesBetween(int fromYear, int toYear) {
-		// If fromYear is bigger than toYear, than no worries we can just swap the values
-		// to make it work in the same order:
+		// If fromYear is bigger than toYear, then no worries we can just swap the values
+		// to make it work in the same range:
 		if (fromYear > toYear) {
 			int temp = fromYear;
 			fromYear = toYear;
