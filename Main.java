@@ -4,7 +4,7 @@ import java.time.LocalDate;
 public class Main {
 	public static void main(String[] args) {
 		// Provided case:
-		printBonusDatesBetween(0, 2020);
+		printBonusDatesBetween(2010, 2015);
 		// Reversed range case:
 		// printBonusDatesBetween(2015, 2010);
 		// Negative year case:
